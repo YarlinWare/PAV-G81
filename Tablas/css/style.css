@@ -55,12 +55,12 @@ padding: 0;
 }
 /* -------- ************************************* -------- */
 body{
-	/*background: #4BCCCB;*/
-  font-family:
+  /*background: #4BCCCB;*/
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 h1{
-	font-family: 'Righteous', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 40px;
   text-align: center;
   padding-bottom: 20px;
@@ -101,9 +101,9 @@ thead {
 th{padding: 10px;}
 
 table{
-	font-family: 'Pathway Gothic One', sans-serif;	
-	width: 600px;
-}	
+  font-family: 'Pathway Gothic One', sans-serif;  
+  width: 600px;
+} 
 tr{
   border: none;
 }
@@ -118,11 +118,11 @@ button{
 }
 p{  
   font-size:20px; 
-  font-family: 'Pathway Gothic One', sans-serif;	
+  font-family: 'Pathway Gothic One', sans-serif;  
   padding-left: 20px;
   padding-top:10px;
   color:#fff;
-  text-align: center;  
+  text-align: center;
 }
 div.cont-msg{
   margin-top:20px;
@@ -132,35 +132,37 @@ div.cont-msg{
   border-radius: 10px;
 }
 
-button {
-	text-decoration:none;
-	font-weight:600;
-	font-size:20px;
-	color:#ffffff;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-left:40px;
-	padding-right:40px;
-	background-color:#005BBB;
+button#btnAceptar {
+  text-decoration:none;
+  font-weight:600;
+  font-size:10px;
+  color:#ffffff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#FF77DD;
 }
 button#btnAceptar:active {
   background-color:#B34296;
 }
-.ultimo-renglon{
-	background: none;
+tr.ultimo-renglon{
+  background: none;
 }
+
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 a:link {
-	color: #4BB3B2;
+  color: #4BB3B2;
 }
 a:visited {
-	color: #4BB3B2;
+  color: #4BB3B2;
 }
 a:active {
-	color: #4BB3B2;
+  color: #4BB3B2;
 }
 a:hover{
-	color: #FFED91;
+  color: #FFED91;
 }
+

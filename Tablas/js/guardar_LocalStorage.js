@@ -1,16 +1,15 @@
 var mensaje = document.getElementById('mensaje');
 var contmsg = document.getElementById('cont-msg');
-
 function validar(input){
  	mensaje.innerHTML = ""
-  contmsg.style.background='none';
-  mensaje.style.color = "#FFF";
+  	contmsg.style.background='none';
+  	mensaje.style.color = "#FFF";
 	const min=parseInt(input.dataset.lengthmin); 
 	if(input.value.length>=min){
 		input.style.borderColor="#33CB0F";
     	mensaje.innerHTML = "Dato ingresado válido";
     	contmsg.style.background='#a0deb6';
-      mensaje.style.color = "#000";
+      	mensaje.style.color = "#000";
 		return true;
 	}else{
 		input.style.borderColor="#ff0000";
@@ -22,7 +21,7 @@ function validar(input){
 
 
 function validarFormulario(formulario)
-{
+{	
 	let result=true;
 	var input=formulario.querySelectorAll("input[type=text]");
 	var input_number=formulario.querySelectorAll("input[type=number]");
@@ -43,10 +42,9 @@ function validarFormulario(formulario)
 //LocalStorage 
 //Set -> guardando
 //Get -> Obteniendo
-
-
 Form1.addEventListener('submit', function (event) {
 
+	// Don't submit the form
 	event.preventDefault();
 	var nombre = document.getElementById('nombre').value ;
 	var apellido = document.getElementById('apellido').value;
@@ -76,19 +74,9 @@ Form1.addEventListener('submit', function (event) {
 	localStorage.setItem('apellido4',apellido4);
 	localStorage.setItem('edad4',edad4);
 
-	var nombre5 = document.getElementById('nombre5').value;
-	var apellido5 = document.getElementById('apellido5').value;
-	var edad5 = document.getElementById('edad5').value;
-	localStorage.setItem('nombre5',nombre5);
-	localStorage.setItem('apellido5',apellido5);
-	localStorage.setItem('edad5',edad5);
-
 }, false);
 
-
-
-
-
+			
 /*function comprobar(){
 	var input=formulario.querySelectorAll("input[type=text]");
 	var input_number=formulario.querySelectorAll("input[type=number]");
@@ -101,5 +89,3 @@ Form1.addEventListener('submit', function (event) {
 	}
 	
 }*/
-
-

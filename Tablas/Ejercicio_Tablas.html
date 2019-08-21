@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Prog. Avanzada</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Righteous&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/index.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<h1><i class="material-icons">view_compact</i> Ejercicio Tablas</h1>
   
-	<form method="GET" action="index.html" name="Form1" id="Form1" onsubmit="validarFormulario(this)"> 
+	<form method="GET" action="Listar.html" name="Form1" id="Form1" enctype="multipart/form-data" onsubmit="validarFormulario(this)" target="_blank"> 	
 		<table >
 			<thead>
 				<tr>
@@ -47,20 +48,26 @@
 				</tr>
 				<tr class="ultimo-renglon">
 				
-					<td><button onclick="" name="btnAceptar" id="btnAceptar" >Aceptar</button><td>
+					<td><button name="btnAceptar" id="btnAceptar" type="submit" >Aceptar</button><td>
 					<td colspan="4" rowspan="2">
 						<img height="50px"src="img/Icon-distribution.png"></img>
 					</td>
 				</tr>
 				<tr>
-					<td><a href="index.html">Hipervínculo</a><td>			
+					<br><td><a href="Listar.html">Hipervínculo</a><td>			
 				</tr>
 			</tbody>
 		</table>
     <div class="cont-msg" id="cont-msg"><p id="mensaje"></p></div>
 
-	</form>
-  
-	<script type='text/javascript' src="js/index.js"></script>
+   	<br>
+	<div id="metadatos">
+		<h3>Uso de las etiquetas Meta </h3>
+		<span>Las etiquetas meta o meta tags encabezan un documento HTML y suministran información codificada a navegadores y motores de búsqueda sobre una página web. Los metadatos son invisibles para el usuario y se encargan de añadir información para facilitar el análisis de los archivos HTML y la gestión del contenido de una página web. Los meta tags de HTML siguen a menudo la misma construcción: en primer lugar se define un elemento y en segundo lugar se asigna un contenido. </span>
+	</div>
+	</form>  
+
+	<script type='text/javascript' src="js/guardar_LocalStorage.js"></script>
+	<script type='text/javascript' src="js/ejemp_capturar.js"></script>
 </body>
 </html>
