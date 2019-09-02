@@ -1,11 +1,11 @@
 # PAV-G81
 
-Programación Avnzada Grupo 81
+Programación Avanzada Grupo 81
 
 ### Contenido
 
 - Tabla con persistencia de datos.
-
+- Formulario hoja de vida.
  
 Integrantes  | Código
 ------------- | -------------

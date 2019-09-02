@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Hoja de vida</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="row">
+	<div class="container">
+	<h1 class="pt-5">Hoja de vida</h1>
+	<br>	
+	<form method="GET" action="imprimir.html" name="Form1" id="Form1" enctype="multipart/form-data" onsubmit="validarFormulario(this)" target="_blank"> 	
+		<h3>Datos personales</h3>
+		<table >
+			<!--<thead>
+				<tr>
+					<th>Nombre<th>
+					<th>Apellido<th>
+					<th>Edad<th>
+				</tr>
+			</thead>-->
+			<tbody>
+				<tr>
+					<th class="input-header">Primer apellido</th>
+					<th class="input-header">Segundo apellido</th>
+					<th class="input-header" colspan="2">Nombres</th>
+				</tr>
+				<tr>
+					<td><input type="text" id="lastname1"></td>
+					<td><input type="text" id="lastname2"></td>
+					<td colspan="2"><input type="text" id="name"></td>
+				</tr>
+				<tr>
+					<th class="input-header" colspan="2">Documento de identificación</th>
+					<th class="input-header">Nacionalidad</th>
+					<th class="input-header">País</th>
+				</tr>
+				<tr rowspan="2">
+					<td>
+						<span>C.C</span><input type="radio" name="document" value="cc" id="cc">
+						<span>C.E</span><input type="radio" name="document" value="ce" id="ce">
+						<span>PAS</span><input type="radio" name="document" value="passport" id="passport">						
+					</td>
+					<td><input type="number" id="number-document"></td>
+					<td><input type="text" id="nacionalidad"></td>
+					<td><input type="text" id="pais_origen"></td>
+				</tr>
+				<tr>
+					<th class="input-header" colspan="2">Fecha y lugar de nacimiento</th>
+					<th class="input-header" colspan="2">Dirección de correspondencia</th>
+				</tr>
+				<tr >
+					<th class="input-header-sub" rowspan="1">Fecha</td>
+					<td rowspan="1"><input type="date" id="date_nac"></td>	
+					<td colspan="2"><input type="text" id="direccion-correspondencia"></td>							
+				</tr>
+				<tr>
+					<th class="input-header-sub" >Pais</td>
+					<td ><input type="text" id="pais_nac"></td>
+					<th class="input-header-sub" >Pais</td>
+					<td ><input type="text" name="pais_corresp"></td>					
+				</tr>
+				<tr>
+					<td class="input-header-sub">Depto</td>
+					<td><input type="text" id="depto_nac"></td>	
+					<td class="input-header-sub">Depto</td>
+					<td><input type="text" name="depto_corresp"></td>				
+				</tr>
+				<tr>
+					<td class="input-header-sub">Municipio</td>
+					<td><input type="text" id="muni_nac"></td>
+					<td class="input-header-sub">Municipio</td>
+					<td><input type="text" name="municipio_corresp"></td>
+				</tr>
+				<tr>
+					<th class="input-header-sub">Teléfono</th>
+					<td><input type="number" id="tel"></td>
+					<th class="input-header-sub">Correo</th>
+					<td><input type="email" id="correo"></td>				
+				</tr>
+				
+			</tbody>
+		</table>
+		<br>
+		<h3 class="input-header">Información Académica</h3>
+		<table>
+			<tbody>
+				<tr><span class="input-header">Educación Superior</span></tr>
+				<tr>
+					<th class="input-header-sub">Instituto</th>
+					<td ><input type="text" id="Empresa"></td>
+					<td class="input-header-sub">Título obtenido</td>
+					<td><input type="text" ></td>
+				</tr>
+				<tr>
+					<td class="input-header-sub">Inicio</td>
+					<td><input type="text" ></td>
+					<td class="input-header-sub">Estado</td>
+					<td><input type="text"></td>				
+				</tr><br>
+				<tr>
+					<th class="input-header-sub">Instituto</th>
+					<td ><input type="text" id="Empresa"></td>
+					<td class="input-header-sub">Título obtenido</td>
+					<td><input type="text" ></td>
+				</tr>
+				<tr>
+					<td class="input-header-sub">Inicio</td>
+					<td><input type="text" ></td>
+					<td class="input-header-sub">Estado</td>
+					<td><input type="text"></td>				
+				</tr><br>
+				<tr>
+					<th class="input-header-sub">Instituto</th>
+					<td ><input type="text" id="Empresa"></td>
+					<td class="input-header-sub">Título obtenido</td>
+					<td><input type="text" ></td>
+				</tr>
+				<tr>
+					<td class="input-header-sub">Inicio</td>
+					<td><input type="text" ></td>
+					<td class="input-header-sub">Estado</td>
+					<td><input type="text"></td>				
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<h3>Experiencia laboral</h3>
+		<table>
+			<tr><th class="input-header-sub">Empresa</th>
+				<td colspan="3"><input type="text" id="Empresa"></td>
+			</tr>
+			<tr>
+				<td class="input-header-sub">Tiempo laborado</td>
+				<td><input type="text" ></td>
+				<td class="input-header-sub">Cargo</td>
+				<td><input type="text"></td>				
+			</tr>
+			<tr><th class="input-header-sub">Empresa</th>
+				<td colspan="3"><input type="text" id="Empresa"></td>
+			</tr>
+			<tr>
+				<td class="input-header-sub">Tiempo laborado</td>
+				<td><input type="text" ></td>
+				<td class="input-header-sub">Cargo</td>
+				<td><input type="text"></td>				
+			</tr>
+			<tr>
+				<th class="input-header-sub">Empresa</th>
+				<td colspan="3"><input type="text" id="Empresa"></td>
+			</tr>
+			<tr>
+				<td class="input-header-sub">Tiempo laborado</td>
+				<td><input type="text" ></td>
+				<td class="input-header-sub">Cargo</td>
+				<td><input type="text"></td>				
+			</tr>			
+		</table>
+		<br>
+		<h3>Imagen de perfil</h3>
+		<table>
+			<tbody>
+				<tr>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="inputGroupFileAddon01">Imagen de perfil</span>
+						</div>
+						<div class="custom-file">
+							<input type="file" class="custom-file-input" id="inputGroupFile01" >
+							<label class="custom-file-label" for="inputGroupFile01">Buscar imagen</label>
+						</div>
+					</div>
+				</tr>
+			</tbody>
+		</table>
+		<button name="btnAceptar" id="btnAceptar" type="submit" >Aceptar</button>
+	</form>
+	</div>
+	<script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
