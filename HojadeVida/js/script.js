@@ -46,10 +46,58 @@ Form1.addEventListener('submit', function (event) {
 	localStorage.setItem('correo',correo);	
 
 	//Información Académica
+	var instituto1 = document.getElementById('instituto1').value;	
+	localStorage.setItem('instituto1',instituto1);
+	var titulo1 = document.getElementById('titulo1').value;	
+	localStorage.setItem('titulo1',titulo1);
+	var fechInicio1 = document.getElementById('fechInicio1').value;	
+	localStorage.setItem('fechInicio1',fechInicio1);
+	var estado1 = document.getElementById('estado1').value;	
+	localStorage.setItem('estado1',estado1);
+
+	var instituto2 = document.getElementById('instituto2').value;	
+	localStorage.setItem('instituto2',instituto2);
+	var titulo2 = document.getElementById('titulo2').value;	
+	localStorage.setItem('titulo2',titulo2);
+	var fechInicio2 = document.getElementById('fechInicio2').value;	
+	localStorage.setItem('fechInicio2',fechInicio2);
+	var estado2 = document.getElementById('estado2').value;	
+	localStorage.setItem('estado2',estado2);
+
+	var instituto3 = document.getElementById('instituto3').value;	
+	localStorage.setItem('instituto3',instituto3);
+	var titulo3 = document.getElementById('titulo3').value;	
+	localStorage.setItem('titulo3',titulo3);
+	var fechInicio3 = document.getElementById('fechInicio3').value;	
+	localStorage.setItem('fechInicio3',fechInicio3);
+	var estado3 = document.getElementById('estado3').value;	
+	localStorage.setItem('estado3',estado3);
+
 
 	//Experiencia laboral
+	var Empresa1 = document.getElementById('Empresa1').value;	
+	localStorage.setItem('Empresa1',Empresa1);
+	var tiempo_labor1 = document.getElementById('tiempo_labor1').value;	
+	localStorage.setItem('tiempo_labor1',tiempo_labor1);
+	var cargo1 = document.getElementById('cargo1').value;	
+	localStorage.setItem('cargo1',cargo1);
+
+	var Empresa2 = document.getElementById('Empresa2').value;	
+	localStorage.setItem('Empresa2',Empresa2);
+	var tiempo_labor2 = document.getElementById('tiempo_labor2').value;	
+	localStorage.setItem('tiempo_labor2',tiempo_labor2);
+	var cargo2 = document.getElementById('cargo2').value;	
+	localStorage.setItem('cargo2',cargo2);
+
+	var Empresa3 = document.getElementById('Empresa3').value;	
+	localStorage.setItem('Empresa3',Empresa3);
+	var tiempo_labor3 = document.getElementById('tiempo_labor3').value;	
+	localStorage.setItem('tiempo_labor3',tiempo_labor3);
+	var cargo3 = document.getElementById('cargo3').value;	
+	localStorage.setItem('cargo3',cargo3);
 
 	//Imagen de perfil
+
 
 }, false);
 

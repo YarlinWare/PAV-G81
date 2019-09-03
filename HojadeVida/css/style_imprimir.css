@@ -69,16 +69,17 @@ input{
 }
 
 .input-header {   
-    align-items: center;
+    align-items: left;
     padding: .375rem .75rem;
     margin-bottom: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #ff0606;
     text-align: center;
     white-space: nowrap;
-    background-color: #78ddba;
+    font-style: oblique;
+    font-variant: petite-caps;
 }
 .input-header-sub {   
     padding: .375rem .75rem;
@@ -86,7 +87,6 @@ input{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #f25a0c;
     white-space: nowrap;
-    background-color: #78ddba;
 }
