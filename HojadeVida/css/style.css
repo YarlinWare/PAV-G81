@@ -90,3 +90,7 @@ input{
     white-space: nowrap;
     background-color: #e9ecef;
 }
+select {
+    width: 100%;
+    border: ridge;
+}

@@ -14,13 +14,6 @@
 	<form method="GET" action="imprimir.html" name="Form1" id="Form1" enctype="multipart/form-data" onsubmit="validarFormulario(this)" target="_blank"> 	
 		<h3>Datos personales</h3>
 		<table >
-			<!--<thead>
-				<tr>
-					<th>Nombre<th>
-					<th>Apellido<th>
-					<th>Edad<th>
-				</tr>
-			</thead>-->
 			<tbody>
 				<tr>
 					<th class="input-header">Primer apellido</th>
@@ -98,7 +91,15 @@
 					<td class="input-header-sub">Inicio</td>
 					<td><input type="text" id="fechInicio1"></td>
 					<td class="input-header-sub">Estado</td>
-					<td><input type="text" id="estado1"></td>				
+					<!--<td><input type="text" id="estado1"></td>		-->
+					<td>
+						<select name="" id="estado1">
+							<option value="" >-- Selecccionar --</option>
+							<option value="En_curso">En curso</option>
+							<option value="Aplazado">Aplazado</option>
+							<option value="Culminado">Culminado</option>
+						</select>
+					</td>		
 				</tr><br>
 				<tr>
 					<th class="input-header-sub">Instituto</th>
@@ -110,7 +111,15 @@
 					<td class="input-header-sub">Inicio</td>
 					<td><input type="text" id="fechInicio2" ></td>
 					<td class="input-header-sub">Estado</td>
-					<td><input type="text" id="estado2"></td>				
+					<!--<td><input type="text" id="estado2"></td>		-->
+					<td>
+						<select name="" id="estado1">
+							<option value="" >-- Selecccionar --</option>
+							<option value="En_curso">En curso</option>
+							<option value="Aplazado">Aplazado</option>
+							<option value="Culminado">Culminado</option>
+						</select>
+					</td>				
 				</tr><br>
 				<tr>
 					<th class="input-header-sub">Instituto</th>
@@ -122,7 +131,15 @@
 					<td class="input-header-sub">Inicio</td>
 					<td><input type="text" id="fechInicio3" ></td>
 					<td class="input-header-sub">Estado</td>
-					<td><input type="text" id="estado3"></td>				
+					<!--<td><input type="text" id="estado3"></td>		-->
+					<td>
+						<select name="" id="estado1">
+							<option value="" >-- Selecccionar --</option>
+							<option value="En_curso">En curso</option>
+							<option value="Aplazado">Aplazado</option>
+							<option value="Culminado">Culminado</option>
+						</select>
+					</td>			
 				</tr>
 			</tbody>
 		</table>
@@ -178,6 +195,6 @@
 		<button name="btnAceptar" id="btnAceptar" type="submit" >Aceptar</button>
 	</form>
 	</div>
-	<script type='text/javascript' src="js/script.js"></script>
+	<script type='text/javascript' src="js/script.js"></script>	
 </body>
 </html>
