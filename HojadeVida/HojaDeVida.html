@@ -21,9 +21,9 @@
 					<th class="input-header" colspan="2">Nombres</th>
 				</tr>
 				<tr>
-					<td><input type="text" id="lastname1"></td>
-					<td><input type="text" id="lastname2"></td>
-					<td colspan="2"><input type="text" id="name"></td>
+					<td><input type="text" name="lastname1" id="lastname1"></td>
+					<td><input type="text" name="lastname2" id="lastname2"></td>
+					<td colspan="2"><input name="name" type="text" id="name"></td>
 				</tr>
 				<tr>
 					<th class="input-header" colspan="2">Documento de identificación</th>
@@ -31,14 +31,14 @@
 					<th class="input-header">País</th>
 				</tr>
 				<tr rowspan="2">
-					<td>
-						<span>C.C</span><input type="radio" name="document" value="cc" id="cc">
-						<span>C.E</span><input type="radio" name="document" value="ce" id="ce">
-						<span>PAS</span><input type="radio" name="document" value="passport" id="passport">						
+					<td id="document">
+						<span>C.C</span><input type="radio" name="document" value="cc" >
+						<span>C.E</span><input type="radio" name="document" value="ce" >
+						<span>PAS</span><input type="radio" name="document" value="passport">
 					</td>
-					<td><input type="number" id="number-document"></td>
-					<td><input type="text" id="nacionalidad"></td>
-					<td><input type="text" id="pais_origen"></td>
+					<td><input name="number-document" type="number" id="number-document"></td>
+					<td><input name="nacionalidad" type="text" id="nacionalidad"></td>
+					<td><input name="pais_origen" type="text" id="pais_origen"></td>
 				</tr>
 				<tr>
 					<th class="input-header" colspan="2">Fecha y lugar de nacimiento</th>
@@ -46,32 +46,32 @@
 				</tr>
 				<tr >
 					<th class="input-header-sub" rowspan="1">Fecha</td>
-					<td rowspan="1"><input type="date" id="date_nac"></td>	
-					<td colspan="2"><input type="text" id="direccion-correspondencia"></td>							
+					<td rowspan="1"><input name="date_nac" type="date" id="date_nac"></td>	
+					<td colspan="2"><input name="direccion-correspondencia" type="text" id="direccion-correspondencia"></td>							
 				</tr>
 				<tr>
 					<th class="input-header-sub" >Pais</td>
-					<td ><input type="text" id="pais_nac"></td>
+					<td ><input name="pais_nac" type="text" id="pais_nac"></td>
 					<th class="input-header-sub" >Pais</td>
-					<td ><input type="text" id="pais_corresp"></td>					
+					<td ><input name="pais_corresp" type="text" id="pais_corresp"></td>					
 				</tr>
 				<tr>
 					<td class="input-header-sub">Depto</td>
-					<td><input type="text" id="depto_nac"></td>	
+					<td><input name="depto_nac" type="text" id="depto_nac"></td>	
 					<td class="input-header-sub">Depto</td>
-					<td><input type="text" id="depto_corresp"></td>				
+					<td><input name="depto_corresp" type="text" id="depto_corresp"></td>				
 				</tr>
 				<tr>
 					<td class="input-header-sub">Municipio</td>
-					<td><input type="text" id="muni_nac"></td>
+					<td><input name="muni_nac" type="text" id="muni_nac"></td>
 					<td class="input-header-sub">Municipio</td>
-					<td><input type="text" id="municipio_corresp"></td>
+					<td><input name="municipio_corresp" type="text" id="municipio_corresp"></td>
 				</tr>
 				<tr>
 					<th class="input-header-sub">Teléfono</th>
-					<td><input type="number" id="tel"></td>
+					<td><input name="tel" type="number" id="tel"></td>
 					<th class="input-header-sub">Correo</th>
-					<td><input type="email" id="correo"></td>				
+					<td><input name="correo" type="email" id="correo"></td>				
 				</tr>
 				
 			</tbody>
@@ -83,17 +83,17 @@
 				<tr><span class="input-header">Educación Superior</span></tr>
 				<tr>
 					<th class="input-header-sub">Instituto</th>
-					<td ><input type="text" id="instituto1"></td>
+					<td ><input name="instituto1" type="text" id="instituto1"></td>
 					<td class="input-header-sub">Título obtenido</td>
-					<td><input type="text" id="titulo1" ></td>
+					<td><input name="titulo1" type="text" id="titulo1" ></td>
 				</tr>
 				<tr>
 					<td class="input-header-sub">Inicio</td>
-					<td><input type="text" id="fechInicio1"></td>
+					<td><input name="fechInicio1" type="text" id="fechInicio1"></td>
 					<td class="input-header-sub">Estado</td>
 					<!--<td><input type="text" id="estado1"></td>		-->
 					<td>
-						<select name="" id="estado1">
+						<select name="estado1" id="estado1">
 							<option value="" >-- Selecccionar --</option>
 							<option value="En_curso">En curso</option>
 							<option value="Aplazado">Aplazado</option>
@@ -103,17 +103,17 @@
 				</tr><br>
 				<tr>
 					<th class="input-header-sub">Instituto</th>
-					<td ><input type="text"  id="instituto2"></td>
+					<td ><input name="instituto2" type="text"  id="instituto2"></td>
 					<td class="input-header-sub">Título obtenido</td>
-					<td><input type="text" id="titulo2"></td>
+					<td><input name="titulo2" type="text" id="titulo2"></td>
 				</tr>
 				<tr>
 					<td class="input-header-sub">Inicio</td>
-					<td><input type="text" id="fechInicio2" ></td>
+					<td><input name="fechInicio2" type="text" id="fechInicio2" ></td>
 					<td class="input-header-sub">Estado</td>
 					<!--<td><input type="text" id="estado2"></td>		-->
 					<td>
-						<select name="" id="estado1">
+						<select name="estado1" id="estado2">
 							<option value="" >-- Selecccionar --</option>
 							<option value="En_curso">En curso</option>
 							<option value="Aplazado">Aplazado</option>
@@ -123,17 +123,17 @@
 				</tr><br>
 				<tr>
 					<th class="input-header-sub">Instituto</th>
-					<td ><input type="text"  id="instituto3"></td>
+					<td ><input name="instituto3" type="text"  id="instituto3"></td>
 					<td class="input-header-sub">Título obtenido</td>
-					<td><input type="text" id="titulo3" ></td>
+					<td><input name="titulo3" type="text" id="titulo3" ></td>
 				</tr>
 				<tr>
 					<td class="input-header-sub">Inicio</td>
-					<td><input type="text" id="fechInicio3" ></td>
+					<td><input name="fechInicio3" type="text" id="fechInicio3" ></td>
 					<td class="input-header-sub">Estado</td>
 					<!--<td><input type="text" id="estado3"></td>		-->
 					<td>
-						<select name="" id="estado1">
+						<select name="estado3" id="estado3">
 							<option value="" >-- Selecccionar --</option>
 							<option value="En_curso">En curso</option>
 							<option value="Aplazado">Aplazado</option>
@@ -147,32 +147,32 @@
 		<h3>Experiencia laboral</h3>
 		<table>
 			<tr><th class="input-header-sub">Empresa</th>
-				<td colspan="3"><input type="text" id="Empresa1"></td>
+				<td colspan="3"><input name="" type="text" id="Empresa1"></td>
 			</tr>
 			<tr>
 				<td class="input-header-sub">Tiempo laborado</td>
-				<td><input type="text" id="tiempo_labor1" ></td>
+				<td><input name="tiempo_labor1" type="text" id="tiempo_labor1" ></td>
 				<td class="input-header-sub">Cargo</td>
-				<td><input type="text" id="cargo1"></td>				
+				<td><input name="cargo1" type="text" id="cargo1"></td>				
 			</tr>
 			<tr><th class="input-header-sub">Empresa</th>
-				<td colspan="3"><input type="text" id="Empresa2"></td>
+				<td colspan="3"><input name="Empresa2" type="text" id="Empresa2"></td>
 			</tr>
 			<tr>
 				<td class="input-header-sub">Tiempo laborado</td>
-				<td><input type="text" id="tiempo_labor2"></td>
+				<td><input name="tiempo_labor2" type="text" id="tiempo_labor2"></td>
 				<td class="input-header-sub">Cargo</td>
-				<td><input type="text" id="cargo2"></td>				
+				<td><input name="cargo2" type="text" id="cargo2"></td>				
 			</tr>
 			<tr>
 				<th class="input-header-sub">Empresa</th>
-				<td colspan="3"><input type="text" id="Empresa3"></td>
+				<td colspan="3"><input name="Empresa3" type="text" id="Empresa3"></td>
 			</tr>
 			<tr>
 				<td class="input-header-sub">Tiempo laborado</td>
-				<td><input type="text" id="tiempo_labor3"></td>
+				<td><input name="tiempo_labor3" type="text" id="tiempo_labor3"></td>
 				<td class="input-header-sub">Cargo</td>
-				<td><input type="text" id="cargo3"></td>				
+				<td><input name="cargo3" type="text" id="cargo3"></td>				
 			</tr>			
 		</table>
 		<br>
@@ -192,9 +192,11 @@
 				</tr>
 			</tbody>
 		</table>
-		<button name="btnAceptar" id="btnAceptar" type="submit" >Aceptar</button>
+		<button type="submit" onclick="validar()">Aceptar</button>
 	</form>
 	</div>
 	<script type='text/javascript' src="js/script.js"></script>	
+	<script type='text/javascript' src="js/validar_campos.js"></script>		
+	<script></script>
 </body>
 </html>

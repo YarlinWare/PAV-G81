@@ -30,11 +30,7 @@
 					<th class="input-header">País</th>
 				</tr>
 				<tr rowspan="2">
-					<td>
-						<span>C.C</span><input type="radio" name="document" value="cc" id="cc">
-						<span>C.E</span><input type="radio" name="document" value="ce" id="ce">
-						<span>PAS</span><input type="radio" name="document" value="passport" id="passport">						
-					</td>
+					<td id="document"></td>
 					<td id="numberdocument"></td>
 					<td id="nacionalidad"></td>
 					<td id="pais_origen"></td>
@@ -151,8 +147,8 @@
 		</table>
 		<br>
 	<script type='text/javascript' src="js/capturando.js"></script>
-	<script>/*
-		function getVarsUrl(){
+	<script>
+		/*function getVarsUrl(){
 		    var url= location.search.replace("?", "");
 		    var arrUrl = url.split("&");
 		    var urlObj={};   
