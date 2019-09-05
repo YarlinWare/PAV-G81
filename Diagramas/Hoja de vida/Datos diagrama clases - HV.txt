@@ -1,0 +1,70 @@
+Los campos que tengan #, es porque pueden quedar parámetrizados en una tabla independiente. Parecido a TiposDocumento
+
+
+* Persona
+~ Identificacion (PK) - Varchar(10)
+~ TipoIdentificacion (FK de TiposDocumento) - Tinyint
+~ NombreCompleto - Varchar(100)
+~ Celular - Varchar(10)
+~ Telefono - Varchar(7)
+~ CorreoPersonal - Varchar(100)
+~ Ciudad - Varchar(50) 
+~ Barrio - Varchar(50) #
+~ Direccion - Varchar(100)
+~ FechaNacimiento - Date
+~ EstadoCivil - Varchar(20) #
+~ EPS - Varchar(20) #
+~ FondoPensiones - Varchar(20) #
+~ FondoCesantias - Varchar(20) #
+~ PerfilProfesional - Varchar(MAX)
+~ Activo - Bit //Si esta activo o no
+
+
+* TiposDocumento //1-> DI, 2-> Cédula, 3-> Cédula Extranjeria
+~ IDTipo (PK - Tinyint)
+~ Descripcion - Varchar(30)
+
+
+* Estudios
+~ IDEstudio (PK - Int)
+~ Identificacion (FK de Persona - Varchar(10))
+~ TipoEstudio - Tinyint / Varchar(100) # //1-> Universitarios, 2-> Escolares, 3-> Cursos, 4-> Seminarios
+~ NivelEstudio - Tinyint / Varchar(100) # // Cuando TipoEstudio es 1 -> Técnico, Tecnología, Profesional, Ingeniería; Cuando TipoEstudio es 2 -> Bachillerato básico, bachillerato con enfasis.
+~ EntidadEstudio - Varchar(100) # //Nombre del colegio, universidad, instituto, etc
+~ TituloEstudio - Varchar(100) # //Nombre del curso, seminario o carrera
+~ TituloObtenido - Varchar(100) # //Solo aplica cuando el TipoEstudio es 1 o 2
+~ HorasDuracion - Tinyint //Solo aplica cuando el TipoEstudio es 3 o 4
+~ AñosGraduacion - Smallint //Año de finalización
+~ Activo - Bit //Si esta activo o no
+
+
+* ExperienciaLaboral
+~ IdEmpresa (PK - Int)
+~ Identificacion (FK de Persona - Varchar(10))
+~ NombreEmpresa - Varchar(100) #
+~ Direccion - Varchar(100)
+~ Gerente - Varchar(100)
+~ JefeDirecto - Varchar(100)
+~ TelefonoJefeDirecto - Varchar(10)
+~ CargoDesempenado - Varchar(100) #
+~ TipoContrato - Varchar(20) #
+~ FechaIngreso - Date
+~ FechaRetiro - Date
+~ MotivoRetiro - Varchar(100) # //Solo aplica cuando FechaRetiro sea diferente a Null
+~ Activo - Bit //Si esta activo o no
+
+
+* ExperienciaLaboralDetalle
+~ IdEmpresa (FK de ExperienciaLaboral - Int)
+~ DescripcionFuncion - Varchar(100) #
+~ Activo - Bit //Si esta activo o no
+
+
+* Referencias
+~ IDReferencia (PK - Int)
+~ Identificacion (FK de Persona - Varchar(10))
+~ TipoReferencia - Tinyint / Varchar(20) # //1-> Laboral, 2-> Personal
+~ Nombre - Varchar(100) //Nombre completo
+~ Ocupacion - Varchar(100) # //profesion que desempeña
+~ Telefono - Varchar(10) //puede ser celular
+~ Activo - Bit //Si esta activo o no
