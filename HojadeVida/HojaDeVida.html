@@ -9,9 +9,8 @@
 </head>
 <body class="row">
 	<div class="container">
-	<h1 class="pt-5">Hoja de vida</h1>
 	<br>	
-	<form method="GET" action="imprimir.html" name="Form1" id="Form1" enctype="multipart/form-data" onsubmit="validarFormulario(this)" target="_blank"> 	
+	<form method="GET" action="imprimir.html" name="Form1" id="Form1" enctype="multipart/form-data" target="_blank"> 	
 		<h3>Datos personales</h3>
 		<table >
 			<tbody>
@@ -36,7 +35,7 @@
 						<span>C.E</span><input type="radio" name="document" value="ce" >
 						<span>PAS</span><input type="radio" name="document" value="passport">
 					</td>
-					<td><input name="number-document" type="number" id="number-document"></td>
+					<td><input name="numberdocument" type="number" id="number-document"></td>
 					<td><input name="nacionalidad" type="text" id="nacionalidad"></td>
 					<td><input name="pais_origen" type="text" id="pais_origen"></td>
 				</tr>
@@ -47,7 +46,7 @@
 				<tr >
 					<th class="input-header-sub" rowspan="1">Fecha</td>
 					<td rowspan="1"><input name="date_nac" type="date" id="date_nac"></td>	
-					<td colspan="2"><input name="direccion-correspondencia" type="text" id="direccion-correspondencia"></td>							
+					<td colspan="2"><input name="direccioncorrespondencia" type="text" id="direccion-correspondencia"></td>							
 				</tr>
 				<tr>
 					<th class="input-header-sub" >Pais</td>
@@ -194,9 +193,8 @@
 		</table>
 		<button type="submit" onclick="validar()">Aceptar</button>
 	</form>
-	</div>
-	<script type='text/javascript' src="js/script.js"></script>	
-	<script type='text/javascript' src="js/validar_campos.js"></script>		
-	<script></script>
+	</div>	
+	<script type='text/javascript' src="js/validar_campos.js"></script>	
+	<script type='text/javascript' src="js/script.js"></script>			
 </body>
 </html>
