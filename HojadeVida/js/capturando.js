@@ -23,8 +23,6 @@ document.getElementById('municipio_corresp').innerHTML=localStorage.getItem('mun
 document.getElementById('tel').innerHTML=localStorage.getItem('tel');
 document.getElementById('correo').innerHTML=localStorage.getItem('correo');
 
-
-
 //Información Académica
 document.getElementById('instituto1').innerHTML=localStorage.getItem('instituto1');
 document.getElementById('titulo1').innerHTML=localStorage.getItem('titulo1');
