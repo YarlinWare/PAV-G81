@@ -1,35 +1,20 @@
 function validar(){
-<<<<<<< HEAD
 	var flag =false;
 	if(document.getElementById('name').value==""){
 	    alert("El nombre no puede ser vacio");
 	    document.getElementById('Form1').action=false;
-=======
-	var flag =true;
-	if(document.getElementById('name').value==""){
-	    alert("El nombre no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
 	if(document.getElementById('lastname1').value==""){
 	    alert("El apellido no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
 	if(document.getElementById('lastname2').value==""){
 	    alert("El segundo apellido no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
@@ -37,31 +22,19 @@ function validar(){
 
 	if(document.getElementById('numberdocument').value==""){
 	    alert("El numbero de documento no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
 	if(document.getElementById('nacionalidad').value==""){
 	    alert("La nacionalidad no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
 	if(document.getElementById('lastname2').value==""){
 	    alert("El pais de origen no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
@@ -70,7 +43,6 @@ function validar(){
 
 	if(document.getElementById('date_nac').value==""){
 	    alert("La fecha de nacimiento no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
 	    flag=false;
 	    return;
@@ -118,55 +90,6 @@ function validar(){
 	if(document.getElementById('municipio_corresp').value==""){
 	    alert("El municipio de correspondencia no puede ser vacio");
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('direccion-correspondencia').value==""){
-	    alert("La direccion de correspondencia no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('pais_nac').value==""){
-	    alert("El pais de nacimiento no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('depto_nac').value==""){
-	    alert("La departamento de nacimiento no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('muni_nac').value==""){
-	    alert("El municipio de nacimiento no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-
-
-/*-----------------------------------------------*/
-
-	if(document.getElementById('pais_corresp').value==""){
-	    alert("El país de correspondencia no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('depto_corresp').value==""){
-	    alert("El departamento de correspondencia no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if(document.getElementById('municipio_corresp').value==""){
-	    alert("El municipio de correspondencia no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
@@ -175,28 +98,21 @@ function validar(){
 
 	if(document.getElementById('tel').value==""){
 	    alert("El teléfono no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
+
 	    flag=false;
 	    return;
 	}
 	if(document.getElementById('correo').value==""){
 	    alert("El correo de correspondencia no puede ser vacio");
-<<<<<<< HEAD
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 	    flag=false;
 	    return;
 	}
 
 /*-----------------------------------------------*/
 
-<<<<<<< HEAD
+
 	if(
 		(document.getElementById('instituto1').value==""|| 
 		document.getElementById('instituto2').value=="") || 
@@ -230,36 +146,10 @@ function validar(){
 		document.getElementById('estado3').value==""){
 	    alert("El estao académico no puede ser vacio");
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	if((document.getElementById('instituto1').value=="")|| (document.getElementById('instituto2').value=="")) || (document.getElementById('instituto3').value==""){
-	    alert("El instituto no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if((document.getElementById('titulo1').value=="")|| (document.getElementById('titulo2').value=="")) || (document.getElementById('titulo3').value==""){
-	    alert("El título no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if((document.getElementById('fechInicio1').value=="")|| (document.getElementById('fechInicio2').value=="")) || (document.getElementById('fechInicio3').value==""){
-	    alert("La fecha de inicio no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if((document.getElementById('estado1').value=="") || (document.getElementById('estado2').value=="")) || (document.getElementById('estado3').value==""){
-	    alert("El estao académico no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
-	    flag=false;
-	    return;
-	}
+
 
 /*-----------------------------------------------*/
 
-<<<<<<< HEAD
 	if (
 		(document.getElementById('Empresa1').value==""|| 
 		 document.getElementById('Empresa2').value=="") || 
@@ -285,38 +175,12 @@ function validar(){
 		document.getElementById('cargo3').value==""){
 	    alert("El cargo no puede ser vacio");
 	    document.getElementById('Form1').action="HojaDeVida.html";
-=======
-	if((document.getElementById('Empresa1').value=="")|| (document.getElementById('Empresa2').value=="")) || (document.getElementById('Empresa3').value==""){
-	    alert("La empresa no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if((document.getElementById('tiempo_labor1').value=="")|| (document.getElementById('tiempo_labor2').value=="")) || (document.getElementById('tiempo_labor3').value==""){
-	    alert("El tiempo laboral no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
-	    flag=false;
-	    return;
-	}
-	if((document.getElementById('cargo1').value=="")|| (document.getElementById('cargo2').value=="")) || (document.getElementById('cargo3').value==""){
-	    alert("El cargo no puede ser vacio");
-	    document.getElementById('form1').action="imprimir.html";
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
-	    flag=false;
-	    return;
-	}
+
 	if (flag==true) {
-<<<<<<< HEAD
 		alert("Formulario completo " + document.getElementById("nombre").value);
 		document.getElementById('Form1').action="HojaDeVida.html";		
 		return;
 	}
-=======
 
-		alert("Formulario completo " + document.getElementById("nombre").value);
-	}
-
-	
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 
 }

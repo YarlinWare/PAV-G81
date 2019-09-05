@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
 function getVarsUrl(){
     var url= location.search.replace("?","").replace("+"," ");
     var arrUrl = url.split("&");
@@ -73,9 +69,6 @@ document.getElementById('cargo3').innerHTML=misVariablesGet.cargo3;
 
 document.getElementById('Empresa2').innerHTML=misVariablesGet.Empresa2;
 document.getElementById('tiempo_labor2').innerHTML=misVariablesGet.tiempo_labor2;
-<<<<<<< HEAD
+
 document.getElementById('cargo2').innerHTML=misVariablesGet.cargo2;
 
-=======
-document.getElementById('cargo2').innerHTML=misVariablesGet.cargo2;
->>>>>>> 1e738d349fbf2756e1457afe4af7b207ac1f273e
