@@ -1,19 +1,17 @@
 function getVarsUrl(){
-    var url= location.search.replace("?","").replace("+"," ");
+    var patron ='+';
+    var espacio= " ";
+    var url= location.search.replace("?","").replace('+',espacio);
     var arrUrl = url.split("&");
-    var urlObj={};   
-    
+    var urlObj={};    
     //urlObj= location.search.replace("?", "");
     //console.log(urlObj);	
     for(var i=0; i<arrUrl.length; i++){
-		var x= arrUrl[i].split("=");
-		if(arrUrl[i]=='+'){
-			console.log(arrUrl[i]);
-		};
-		urlObj[x[0]]=x[1]
-		//console.log(urlObj[x[0]]);
+	var x= arrUrl[i].split("=");	
+	urlObj[x[0]]=x[1]
+	//console.log(urlObj[x[0]]);
     }
-    console.log(urlObj);
+    //console.log(urlObj);
     return urlObj;
 }
 var misVariablesGet = getVarsUrl();
@@ -69,6 +67,5 @@ document.getElementById('cargo3').innerHTML=misVariablesGet.cargo3;
 
 document.getElementById('Empresa2').innerHTML=misVariablesGet.Empresa2;
 document.getElementById('tiempo_labor2').innerHTML=misVariablesGet.tiempo_labor2;
-
 document.getElementById('cargo2').innerHTML=misVariablesGet.cargo2;
 
