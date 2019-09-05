@@ -495,8 +495,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 608,
-											"top": -416,
+											"left": 352,
+											"top": -208,
 											"height": 13
 										},
 										{
@@ -506,8 +506,8 @@
 												"$ref": "AAAAAAFs/5M7WDlCS6w="
 											},
 											"font": "Arial;13;1",
-											"left": 373,
-											"top": 39,
+											"left": 245,
+											"top": 143,
 											"width": 100.8642578125,
 											"height": 13,
 											"text": "Tipo documento"
@@ -520,8 +520,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 608,
-											"top": -416,
+											"left": 352,
+											"top": -208,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -534,15 +534,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 608,
-											"top": -416,
+											"left": 352,
+											"top": -208,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 368,
-									"top": 32,
+									"left": 240,
+									"top": 136,
 									"width": 110.8642578125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -578,8 +578,8 @@
 												"$ref": "AAAAAAFs/5xj5DrYIOA="
 											},
 											"font": "Arial;13;0",
-											"left": 373,
-											"top": 62,
+											"left": 245,
+											"top": 166,
 											"width": 100.8642578125,
 											"height": 13,
 											"text": "+IDTipo",
@@ -595,8 +595,8 @@
 												"$ref": "AAAAAAFs/5xpwzreaY0="
 											},
 											"font": "Arial;13;0",
-											"left": 373,
-											"top": 77,
+											"left": 245,
+											"top": 181,
 											"width": 100.8642578125,
 											"height": 13,
 											"text": "+Descripcion",
@@ -604,8 +604,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 368,
-									"top": 57,
+									"left": 240,
+									"top": 161,
 									"width": 110.8642578125,
 									"height": 38
 								},
@@ -619,8 +619,8 @@
 										"$ref": "AAAAAAFs/5M7Vjk/2Mo="
 									},
 									"font": "Arial;13;0",
-									"left": 368,
-									"top": 95,
+									"left": 240,
+									"top": 199,
 									"width": 110.8642578125,
 									"height": 10
 								},
@@ -635,8 +635,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 304,
-									"top": -208,
+									"left": 176,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								},
@@ -651,16 +651,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 304,
-									"top": -208,
+									"left": 176,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 368,
-							"top": 32,
+							"left": 240,
+							"top": 136,
 							"width": 110.8642578125,
 							"height": 73,
 							"nameCompartment": {
@@ -707,8 +707,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 320,
-											"top": -384,
+											"left": 464,
+											"top": -496,
 											"height": 13
 										},
 										{
@@ -718,8 +718,8 @@
 												"$ref": "AAAAAAFs/5OM4jlsBR0="
 											},
 											"font": "Arial;13;1",
-											"left": 341,
-											"top": 143,
+											"left": 413,
+											"top": 87,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "Estudios"
@@ -732,8 +732,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 320,
-											"top": -384,
+											"left": 464,
+											"top": -496,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -746,15 +746,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 320,
-											"top": -384,
+											"left": 464,
+											"top": -496,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 336,
-									"top": 136,
+									"left": 408,
+									"top": 80,
 									"width": 141.8916015625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -790,8 +790,8 @@
 												"$ref": "AAAAAAFs/55UXzrnV8M="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 166,
+											"left": 413,
+											"top": 110,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+IDEstudio",
@@ -807,8 +807,8 @@
 												"$ref": "AAAAAAFs/55YzzrtC0Y="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 181,
+											"left": 413,
+											"top": 125,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+IdentificacionPersona",
@@ -824,8 +824,8 @@
 												"$ref": "AAAAAAFs/55dnTrzAwg="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 196,
+											"left": 413,
+											"top": 140,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+TipoEstudio",
@@ -841,8 +841,8 @@
 												"$ref": "AAAAAAFs/55opzr58Mw="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 211,
+											"left": 413,
+											"top": 155,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+NivelEstudio",
@@ -858,8 +858,8 @@
 												"$ref": "AAAAAAFs/55uGTr/IhE="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 226,
+											"left": 413,
+											"top": 170,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+EntidadEstudio",
@@ -875,8 +875,8 @@
 												"$ref": "AAAAAAFs/55yuDsF76c="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 241,
+											"left": 413,
+											"top": 185,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+NombreEstudio",
@@ -892,8 +892,8 @@
 												"$ref": "AAAAAAFs/5525TsLUT0="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 256,
+											"left": 413,
+											"top": 200,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+TituloObtenido",
@@ -909,8 +909,8 @@
 												"$ref": "AAAAAAFs/558cDsRBXU="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 271,
+											"left": 413,
+											"top": 215,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+HorasDuracion",
@@ -926,8 +926,8 @@
 												"$ref": "AAAAAAFs/56A3jsX6Y8="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 286,
+											"left": 413,
+											"top": 230,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+AnioGraduacion",
@@ -943,8 +943,8 @@
 												"$ref": "AAAAAAFs/56Gpjsdmqc="
 											},
 											"font": "Arial;13;0",
-											"left": 341,
-											"top": 301,
+											"left": 413,
+											"top": 245,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+Activo",
@@ -952,8 +952,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 336,
-									"top": 161,
+									"left": 408,
+									"top": 105,
 									"width": 141.8916015625,
 									"height": 158
 								},
@@ -967,8 +967,8 @@
 										"$ref": "AAAAAAFs/5OM4TlpIDY="
 									},
 									"font": "Arial;13;0",
-									"left": 336,
-									"top": 319,
+									"left": 408,
+									"top": 263,
 									"width": 141.8916015625,
 									"height": 10
 								},
@@ -983,8 +983,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 160,
-									"top": -192,
+									"left": 232,
+									"top": -248,
 									"width": 10,
 									"height": 10
 								},
@@ -999,16 +999,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 160,
-									"top": -192,
+									"left": 232,
+									"top": -248,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 336,
-							"top": 136,
+							"left": 408,
+							"top": 80,
 							"width": 141.8916015625,
 							"height": 193,
 							"nameCompartment": {
@@ -1369,8 +1369,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 464,
-											"top": -288,
+											"left": 608,
+											"top": -432,
 											"height": 13
 										},
 										{
@@ -1380,8 +1380,8 @@
 												"$ref": "AAAAAAFs/5P71znBPBc="
 											},
 											"font": "Arial;13;1",
-											"left": 309,
-											"top": 375,
+											"left": 381,
+											"top": 303,
 											"width": 162.56982421875,
 											"height": 13,
 											"text": "ExperienciaLaboralDetalle"
@@ -1394,8 +1394,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 464,
-											"top": -288,
+											"left": 608,
+											"top": -432,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -1408,15 +1408,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 464,
-											"top": -288,
+											"left": 608,
+											"top": -432,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 304,
-									"top": 368,
+									"left": 376,
+									"top": 296,
 									"width": 172.56982421875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1452,8 +1452,8 @@
 												"$ref": "AAAAAAFs/6O6aDtoFs4="
 											},
 											"font": "Arial;13;0",
-											"left": 309,
-											"top": 398,
+											"left": 381,
+											"top": 326,
 											"width": 162.56982421875,
 											"height": 13,
 											"text": "+IdEmpresa",
@@ -1469,8 +1469,8 @@
 												"$ref": "AAAAAAFs/6PB9ztur/A="
 											},
 											"font": "Arial;13;0",
-											"left": 309,
-											"top": 413,
+											"left": 381,
+											"top": 341,
 											"width": 162.56982421875,
 											"height": 13,
 											"text": "+DescripcionFuncion",
@@ -1486,8 +1486,8 @@
 												"$ref": "AAAAAAFs/6PKFzt04Q8="
 											},
 											"font": "Arial;13;0",
-											"left": 309,
-											"top": 428,
+											"left": 381,
+											"top": 356,
 											"width": 162.56982421875,
 											"height": 13,
 											"text": "+Activo",
@@ -1495,8 +1495,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 304,
-									"top": 393,
+									"left": 376,
+									"top": 321,
 									"width": 172.56982421875,
 									"height": 53
 								},
@@ -1510,8 +1510,8 @@
 										"$ref": "AAAAAAFs/5P71zm+7oE="
 									},
 									"font": "Arial;13;0",
-									"left": 304,
-									"top": 446,
+									"left": 376,
+									"top": 374,
 									"width": 172.56982421875,
 									"height": 10
 								},
@@ -1526,8 +1526,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 232,
-									"top": -144,
+									"left": 304,
+									"top": -216,
 									"width": 10,
 									"height": 10
 								},
@@ -1542,16 +1542,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 232,
-									"top": -144,
+									"left": 304,
+									"top": -216,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 304,
-							"top": 368,
+							"left": 376,
+							"top": 296,
 							"width": 172.56982421875,
 							"height": 88,
 							"nameCompartment": {
@@ -1598,8 +1598,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 48,
-											"top": -32,
+											"left": 224,
+											"top": -208,
 											"height": 13
 										},
 										{
@@ -1609,8 +1609,8 @@
 												"$ref": "AAAAAAFs/5QxwTnrNPU="
 											},
 											"font": "Arial;13;1",
-											"left": 325,
-											"top": 511,
+											"left": 413,
+											"top": 423,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "Referencias"
@@ -1623,8 +1623,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 48,
-											"top": -32,
+											"left": 224,
+											"top": -208,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -1637,15 +1637,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 48,
-											"top": -32,
+											"left": 224,
+											"top": -208,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 504,
+									"left": 408,
+									"top": 416,
 									"width": 141.8916015625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1681,8 +1681,8 @@
 												"$ref": "AAAAAAFs/6WPHTuFnlo="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 534,
+											"left": 413,
+											"top": 446,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+IDReferencia",
@@ -1698,8 +1698,8 @@
 												"$ref": "AAAAAAFs/6WV0juLrYY="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 549,
+											"left": 413,
+											"top": 461,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+Nombre",
@@ -1715,8 +1715,8 @@
 												"$ref": "AAAAAAFs/6WbWjuRXPo="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 564,
+											"left": 413,
+											"top": 476,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+IdentificacionPersona",
@@ -1732,8 +1732,8 @@
 												"$ref": "AAAAAAFs/6WgYjuX3Og="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 579,
+											"left": 413,
+											"top": 491,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+TipoReferencia",
@@ -1749,8 +1749,8 @@
 												"$ref": "AAAAAAFs/6WlYjudrfg="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 594,
+											"left": 413,
+											"top": 506,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+Ocupacion",
@@ -1766,8 +1766,8 @@
 												"$ref": "AAAAAAFs/6WrQzujmX8="
 											},
 											"font": "Arial;13;0",
-											"left": 325,
-											"top": 609,
+											"left": 413,
+											"top": 521,
 											"width": 131.8916015625,
 											"height": 13,
 											"text": "+Telefono",
@@ -1775,8 +1775,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 529,
+									"left": 408,
+									"top": 441,
 									"width": 141.8916015625,
 									"height": 98
 								},
@@ -1790,8 +1790,8 @@
 										"$ref": "AAAAAAFs/5Qxvznogdo="
 									},
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 627,
+									"left": 408,
+									"top": 539,
 									"width": 141.8916015625,
 									"height": 10
 								},
@@ -1806,8 +1806,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 24,
-									"top": -16,
+									"left": 112,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								},
@@ -1822,16 +1822,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 24,
-									"top": -16,
+									"left": 112,
+									"top": -104,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 320,
-							"top": 504,
+							"left": 408,
+							"top": 416,
 							"width": 141.8916015625,
 							"height": 133,
 							"nameCompartment": {
@@ -1941,7 +1941,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "CorreoPersonal"
+							"name": "CorreoPersonal",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1949,7 +1950,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "Ciudad"
+							"name": "Ciudad",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1957,7 +1959,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "Barrio"
+							"name": "Barrio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1965,7 +1968,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "Direccion"
+							"name": "Direccion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1973,7 +1977,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "FechaNacimiento"
+							"name": "FechaNacimiento",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1981,7 +1986,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "EstadoCivil"
+							"name": "EstadoCivil",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1989,7 +1995,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "EPS"
+							"name": "EPS",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1997,7 +2004,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "FondoPensiones"
+							"name": "FondoPensiones",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2005,7 +2013,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "FondoCesantias"
+							"name": "FondoCesantias",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2013,7 +2022,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "PerfilProfesional"
+							"name": "PerfilProfesional",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2021,7 +2031,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5LTkDkUcVQ="
 							},
-							"name": "Activo"
+							"name": "Activo",
+							"type": ""
 						}
 					]
 				},
@@ -2039,7 +2050,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5M7Vjk/2Mo="
 							},
-							"name": "IDTipo"
+							"name": "IDTipo",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2047,7 +2059,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5M7Vjk/2Mo="
 							},
-							"name": "Descripcion"
+							"name": "Descripcion",
+							"type": ""
 						}
 					]
 				},
@@ -2065,7 +2078,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "IDEstudio"
+							"name": "IDEstudio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2073,7 +2087,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "IdentificacionPersona"
+							"name": "IdentificacionPersona",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2081,7 +2096,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "TipoEstudio"
+							"name": "TipoEstudio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2089,7 +2105,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "NivelEstudio"
+							"name": "NivelEstudio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2097,7 +2114,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "EntidadEstudio"
+							"name": "EntidadEstudio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2105,7 +2123,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "NombreEstudio"
+							"name": "NombreEstudio",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2113,7 +2132,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "TituloObtenido"
+							"name": "TituloObtenido",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2121,7 +2141,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "HorasDuracion"
+							"name": "HorasDuracion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2129,7 +2150,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "AnioGraduacion"
+							"name": "AnioGraduacion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2137,7 +2159,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5OM4TlpIDY="
 							},
-							"name": "Activo"
+							"name": "Activo",
+							"type": ""
 						}
 					]
 				},
@@ -2155,7 +2178,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "IdEmpresa"
+							"name": "IdEmpresa",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2163,7 +2187,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "Identificacion"
+							"name": "Identificacion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2171,7 +2196,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "NombreEmpresa"
+							"name": "NombreEmpresa",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2179,7 +2205,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "Direccion"
+							"name": "Direccion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2187,7 +2214,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "CargoDesempenado"
+							"name": "CargoDesempenado",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2195,7 +2223,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "FechaIngreso"
+							"name": "FechaIngreso",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2203,7 +2232,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "FechaRetiro"
+							"name": "FechaRetiro",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2211,7 +2241,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5PXFzmUuKE="
 							},
-							"name": "Activo"
+							"name": "Activo",
+							"type": ""
 						}
 					]
 				},
@@ -2229,7 +2260,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5P71zm+7oE="
 							},
-							"name": "IdEmpresa"
+							"name": "IdEmpresa",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2237,7 +2269,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5P71zm+7oE="
 							},
-							"name": "DescripcionFuncion"
+							"name": "DescripcionFuncion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2245,7 +2278,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5P71zm+7oE="
 							},
-							"name": "Activo"
+							"name": "Activo",
+							"type": ""
 						}
 					]
 				},
@@ -2263,7 +2297,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "IDReferencia"
+							"name": "IDReferencia",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2271,7 +2306,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "Nombre"
+							"name": "Nombre",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2279,7 +2315,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "IdentificacionPersona"
+							"name": "IdentificacionPersona",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2287,7 +2324,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "TipoReferencia"
+							"name": "TipoReferencia",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2295,7 +2333,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "Ocupacion"
+							"name": "Ocupacion",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2303,7 +2342,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs/5Qxvznogdo="
 							},
-							"name": "Telefono"
+							"name": "Telefono",
+							"type": ""
 						}
 					]
 				}
