@@ -5,7 +5,8 @@ Programación Avanzada Grupo 81
 ### Contenido
 
 - Tabla con persistencia de datos.
-- Formulario hoja de vida.
+- Formulario: Hoja de vida.
+- Diagrama de clases: Hoja de vida.
  
 Integrantes  | Código
 ------------- | -------------
