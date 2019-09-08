@@ -1,28 +1,35 @@
 function getVarsUrl(){
     var patron ='+';
     var espacio= " ";
-    var url= location.search.replace("?","").replace('+',espacio);
-    var arrUrl = url.split("&");
+    var url= location.search.replace("?","");
+    var url2="";
+    for (var i = 0; i < url.length; i++) {
+        if (url.charAt(i)=='+') {
+            url2+=' ';
+        } 
+        else {
+            url2+= url.charAt(i);
+        }
+    }
+ 
+    var arrUrl = url2.split("&");
     var urlObj={};    
-    //urlObj= location.search.replace("?", "");
-    //console.log(urlObj);	
     for(var i=0; i<arrUrl.length; i++){
 	var x= arrUrl[i].split("=");	
 	urlObj[x[0]]=x[1]
-	//console.log(urlObj[x[0]]);
     }
-    //console.log(urlObj);
     return urlObj;
 }
 var misVariablesGet = getVarsUrl();
 
 var apellido1= document.getElementById('lastname1');
-apellido1.innerHTML= misVariablesGet.lastname1;
+apellido1.innerHTML= misVariablesGet.lastname1+ " ";
 var apellido2= document.getElementById('lastname2');
-apellido2.innerHTML=misVariablesGet.lastname2;
+apellido2.innerHTML=misVariablesGet.lastname2+ " ";
 var nombre=document.getElementById('name');
-nombre.innerHTML=misVariablesGet.name;
+nombre.innerHTML=misVariablesGet.name+ " ";
 
+document.getElementById('document').innerHTML=misVariablesGet.document;
 document.getElementById('numberdocument').innerHTML=misVariablesGet.numberdocument;
 document.getElementById('nacionalidad').innerHTML=misVariablesGet.nacionalidad;
 document.getElementById('pais_origen').innerHTML=misVariablesGet.pais_origen;

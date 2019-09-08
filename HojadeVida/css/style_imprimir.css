@@ -69,17 +69,8 @@ input{
 }
 
 .input-header {   
-    align-items: left;
-    padding: .375rem .75rem;
-    margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ff0606;
-    text-align: center;
-    white-space: nowrap;
-    font-style: oblique;
-    font-variant: petite-caps;
+    padding-top: 2rem;
+    color: crimson;
 }
 .input-header-sub {   
     padding: .375rem .75rem;
@@ -90,3 +81,31 @@ input{
     color: #f25a0c;
     white-space: nowrap;
 }
+
+.encabezado {
+    font-family: 'Anton', sans-serif;
+    background: crimson;
+    height: 100px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.img-perfil img {
+    width: auto;
+    height: 120px;
+    float: left;
+    padding-left: 30px;
+    margin-top: -105px;
+}
+
+.info-adicional {
+    font-family: arial;
+    font-size: 12px;
+}
+
+.info-user{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
