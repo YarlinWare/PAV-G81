@@ -10,8 +10,7 @@ function getVarsUrl(){
         else {
             url2+= url.charAt(i);
         }
-    }
- 
+    } 
     var arrUrl = url2.split("&");
     var urlObj={};    
     for(var i=0; i<arrUrl.length; i++){
