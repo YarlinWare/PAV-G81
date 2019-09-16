@@ -9,6 +9,19 @@ package Logica;
  *
  * @author estudiantes
  */
-public class ExperienciaLaboralDetalle {
-    
+public class ExperienciaLaboralDetalle extends ExperienciaLaboral {
+
+    String detalleFuncion;
+    int idReferencia;
+
+    public ExperienciaLaboralDetalle(String detalleFuncion, int idReferencia,
+            int nit, int codEmpleado, String nombreEmpresa,
+            String direccioEmpresa, String cargo, String fechaIngreso,
+            String fechaRetiro, boolean activo) {
+        super(nit, codEmpleado, nombreEmpresa, direccioEmpresa, cargo,
+                fechaIngreso, fechaRetiro, activo);
+        this.detalleFuncion = detalleFuncion;
+        this.idReferencia = idReferencia;
+    }
+
 }

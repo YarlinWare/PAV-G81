@@ -16,7 +16,7 @@
     <body class="row">
         <div class="container">
             <br>	
-            <form method="GET" action="impresion.jsp" name="Form1" id="Form1" enctype="multipart/form-data" target="_blank"> 	
+            <form method="GET" action="Servlet" name="Form1" id="Form1" enctype="multipart/form-data" target="_blank"> 	
                 <h3>Datos personales</h3>
                 <table >
                     <tbody>
@@ -200,8 +200,8 @@
                 <button type="submit" onclick="validar()">Aceptar</button>
             </form>
         </div>	
-        <script type='text/javascript' src="js/validar_campos.js"></script>	
-        <script type='text/javascript' src="js/script.js"></script>
+        <!--<script type='text/javascript' src="js/validar_campos.js"></script>	
+        <script type='text/javascript' src="js/script.js"></script>-->
     </body>
 </html>
 

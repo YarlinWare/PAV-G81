@@ -9,6 +9,6 @@ package Logica;
  *
  * @author estudiantes
  */
-public class PerfilProfesional {
+public class PerfilProfesional   {
     
 }
