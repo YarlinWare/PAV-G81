@@ -16,7 +16,7 @@
     <body class="row">
         <div class="container">
             <br>	
-            <form method="GET" action="Servlet" name="Form1" id="Form1" enctype="multipart/form-data" target="_blank"> 	
+            <form  action="Insertar" name="Form1" id="Form1" enctype="multipart/form-data" target="_blank"> 	
                 <h3>Datos personales</h3>
                 <table >
                     <tbody>
@@ -33,7 +33,7 @@
                         <tr>
                             <th class="input-header" colspan="2">Documento de identificación</th>
                             <th class="input-header">Nacionalidad</th>
-                            <th class="input-header">País</th>
+                            <th class="input-header">País Residencia</th>
                         </tr>
                         <tr rowspan="2">
                             <td id="document">
@@ -152,7 +152,7 @@
                 <h3>Experiencia laboral</h3>
                 <table>
                     <tr><th class="input-header-sub">Empresa</th>
-                        <td colspan="3"><input name="" type="text" id="Empresa1"></td>
+                        <td colspan="3"><input name="Empresa1" type="text" id="Empresa1"></td>
                     </tr>
                     <tr>
                         <td class="input-header-sub">Tiempo laborado</td>
