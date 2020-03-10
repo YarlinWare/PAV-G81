@@ -9,6 +9,7 @@ Programación Avanzada Grupo 81
 - Diagrama de clases: Hoja de vida.
 - Hoja de vida en JSP.
 - Hoja de vida en JSP con DB (en proceso).
+- Métricas Gym
  
 Integrantes  | Código
 ------------- | -------------
